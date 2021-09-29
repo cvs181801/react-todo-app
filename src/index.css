@@ -19,13 +19,6 @@ body {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.ToDos-Div {
-  background-color: cornflowerblue;
-  padding: .7em;
-  display: flex;
-  max-width: 100vw;
-}
-
 .App {
   background-color: cyan;
   padding: .7em;
@@ -33,5 +26,14 @@ body {
   text-align: center;
   align-content: center;
   justify-content: center;
-
 }
+
+.ToDos-Div {
+  background-color: cornflowerblue;
+  padding: .7em;
+  display: flex;
+  max-width: 30vw;
+  margin: 0 auto;
+}
+
+
