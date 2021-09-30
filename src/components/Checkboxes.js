@@ -16,7 +16,7 @@ export default function Checkbox() {
                 label="Sweep Floor"
                 text="Excellent"
                 />
-           < IndividualCheckbox 
+           < IndividualCheckbox style={{ color: 'red'}}
                 label="Check Email"
                 text="Super!"
                 />

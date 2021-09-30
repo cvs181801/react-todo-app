@@ -5,7 +5,7 @@ export default function IndividualCheckbox(props) {
         <div className="indivCheckboxes">
             <label>{props.label}</label>
             <input type="checkbox" ></input>
-            <p>{props.text}</p>
+            <p style={{ color: 'purple'}}>{props.text}</p>
             </div>
     )
 }
