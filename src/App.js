@@ -1,7 +1,7 @@
 import React from "react"
 import './index.css';
 import Checkboxes from './components/Checkboxes';
-import IndividualCheckboxes from "./components/IndividualCheckboxes";
+import IndividualCheckboxes from "./components/IndividualCheckbox";
 
 
 function App() {
