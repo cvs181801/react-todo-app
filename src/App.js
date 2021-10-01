@@ -1,15 +1,20 @@
 import React from "react"
 import './index.css';
 import Checkboxes from './components/Checkboxes';
+import todosData from "./components/TodosData";
+import IndividualCheckbox from "./components/IndividualCheckbox";
 
 
 function App() {
-//const [toDos , setToDos] = useState([Todo1, Todo2]) //the useState() method is a hook that allows you to add state variables into functional components.  The first parameter is the current state and the second is the state you want to update it to.
-  
+  const todoComponents = todosData.map(todo => 
+    <IndividualCheckbox key={todo.id} task = {todo.task} 
+    requiresConcentration = {todo.requiresConcentration} howOften={todo.howOften}
+    />)
+
+    
 
 return (
     <div className="App" >
-      {/*<Checkboxes toDos = {todos}/>*/}
       <p>To Do's</p>
       <Checkboxes />
      
